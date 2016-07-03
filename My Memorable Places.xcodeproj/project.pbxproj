@@ -12,6 +12,8 @@
 		5F3E1EF21D294C4E004D05A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F3E1EF01D294C4E004D05A3 /* Main.storyboard */; };
 		5F3E1EF41D294C4E004D05A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F3E1EF31D294C4E004D05A3 /* Assets.xcassets */; };
 		5F3E1EF71D294C4E004D05A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F3E1EF51D294C4E004D05A3 /* LaunchScreen.storyboard */; };
+		5F3E1EFF1D2952B9004D05A3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3E1EFE1D2952B9004D05A3 /* TableViewController.swift */; };
+		5F3E1F011D295594004D05A3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3E1F001D295594004D05A3 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5F3E1EF31D294C4E004D05A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F3E1EF61D294C4E004D05A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F3E1EF81D294C4E004D05A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F3E1EFE1D2952B9004D05A3 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5F3E1F001D295594004D05A3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F3E1F011D295594004D05A3 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +43,7 @@
 		5F3E1EE01D294C4E004D05A3 = {
 			isa = PBXGroup;
 			children = (
+				5F3E1F001D295594004D05A3 /* CoreLocation.framework */,
 				5F3E1EEB1D294C4E004D05A3 /* My Memorable Places */,
 				5F3E1EEA1D294C4E004D05A3 /* Products */,
 			);
@@ -57,6 +63,7 @@
 				5F3E1EEC1D294C4E004D05A3 /* AppDelegate.swift */,
 				5F3E1EEE1D294C4E004D05A3 /* ViewController.swift */,
 				5F3E1EF01D294C4E004D05A3 /* Main.storyboard */,
+				5F3E1EFE1D2952B9004D05A3 /* TableViewController.swift */,
 				5F3E1EF31D294C4E004D05A3 /* Assets.xcassets */,
 				5F3E1EF51D294C4E004D05A3 /* LaunchScreen.storyboard */,
 				5F3E1EF81D294C4E004D05A3 /* Info.plist */,
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F3E1EEF1D294C4E004D05A3 /* ViewController.swift in Sources */,
+				5F3E1EFF1D2952B9004D05A3 /* TableViewController.swift in Sources */,
 				5F3E1EED1D294C4E004D05A3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
