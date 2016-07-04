@@ -38,7 +38,7 @@
             </objects>
             <point key="canvasLocation" x="1417" y="756"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Home-->
         <scene sceneID="CJZ-Ox-FHq">
             <objects>
                 <tableViewController id="3gf-d5-AB6" sceneMemberID="viewController">
@@ -54,6 +54,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="aZi-iR-icr"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -62,10 +65,10 @@
                         </connections>
                     </tableView>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="fkW-vS-heE">
+                    <navigationItem key="navigationItem" title="Home" id="fkW-vS-heE">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="BRH-PB-gLy">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" id="8I2-S8-OX0"/>
+                                <segue destination="BYZ-38-t0r" kind="show" identifier="newPlace" id="8I2-S8-OX0"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -92,4 +95,7 @@
             <point key="canvasLocation" x="32" y="756"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="8I2-S8-OX0"/>
+    </inferredMetricsTieBreakers>
 </document>
